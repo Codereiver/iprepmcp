@@ -1,0 +1,14 @@
+# MCP Server dependencies
+mcp>=1.0.0
+
+# Core iprep dependencies
+requests>=2.28.0
+
+# Optional enhanced functionality
+dnspython>=2.3.0  # For DNS-based reputation checks
+maxminddb>=2.2.0  # For MaxMind GeoIP database support
+
+# Development and testing (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-asyncio>=0.21.0
